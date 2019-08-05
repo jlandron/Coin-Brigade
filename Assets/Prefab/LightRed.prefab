@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5468086834684725330}
   - component: {fileID: 5468086834684725329}
   - component: {fileID: 5468086834684725328}
+  - component: {fileID: -9177937703239115271}
   m_Layer: 0
   m_Name: LightRed
   m_TagString: Untagged
@@ -332,3 +333,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!114 &-9177937703239115271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468086834684725334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680f54961734a7f42a26b5084a9b4c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasCoin: 0
+  isPlaceable: 1

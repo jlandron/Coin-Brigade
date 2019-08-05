@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4964964086414674601}
   - component: {fileID: 4964964086414674600}
   - component: {fileID: 4964964086414674603}
+  - component: {fileID: 3601507526495142470}
   m_Layer: 0
   m_Name: DarkRed
   m_TagString: Untagged
@@ -332,3 +333,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!114 &3601507526495142470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964964086414674605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680f54961734a7f42a26b5084a9b4c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasCoin: 0
+  isPlaceable: 1

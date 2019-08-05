@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1869380643426838243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170381889740361814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680f54961734a7f42a26b5084a9b4c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasCoin: 0
+  isPlaceable: 1
 --- !u!1001 &6113936279665629947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72,15 +86,22 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4964964086414674601, guid: 10c4f893b12fd2945816b38c8b02ad58,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d2c06f00018a6564f93e95d7fa1b2ccd, type: 2}
     - target: {fileID: 4964964086414674603, guid: 10c4f893b12fd2945816b38c8b02ad58,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4964964086414674601, guid: 10c4f893b12fd2945816b38c8b02ad58,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2c06f00018a6564f93e95d7fa1b2ccd, type: 2}
+    m_RemovedComponents:
+    - {fileID: 3601507526495142470, guid: 10c4f893b12fd2945816b38c8b02ad58, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 10c4f893b12fd2945816b38c8b02ad58, type: 3}
+--- !u!1 &1170381889740361814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4964964086414674605, guid: 10c4f893b12fd2945816b38c8b02ad58,
+    type: 3}
+  m_PrefabInstance: {fileID: 6113936279665629947}
+  m_PrefabAsset: {fileID: 0}
