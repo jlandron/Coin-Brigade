@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4964964086414674605}
-  m_LocalRotation: {x: -0.0000000842937, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 71, y: 3, z: -3.0000005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -83,7 +83,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: afdba3ab19797264dbe8ee5f131b0b43, type: 2}
+  - {fileID: 2100000, guid: 224de5a1c3ba5f948af30bd7826e4666, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
-  m_SelectedVertices: 000000001000000015000000060000001200000017000000010000000800000011000000050000000a00000013000000
+  m_SelectedVertices: 
 --- !u!64 &4964964086414674603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -347,3 +347,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasCoin: 0
   isPlaceable: 1
+  gridPosition: {x: 0, y: 0}
